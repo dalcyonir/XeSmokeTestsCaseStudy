@@ -1,0 +1,9 @@
+#Usage
+the tests are ran with the command mvn clean test
+maven surefire is used in order for the tests to be easy to be used in a CI/CD context (like through Jenkins)
+
+#Notes
+Tests run serially but can also be ran in parallel.
+The search values that are hardcoded (eg. Pagkrati and the prices/area) should be gathered from a database
+if the tests need to be extended.
+

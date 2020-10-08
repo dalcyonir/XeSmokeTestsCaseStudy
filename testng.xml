@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="XeTests" annotations="JDK">
+
+    <test name="testSelenium" >
+        <classes>
+            <class name="test.java.CaseStudyTests"/>
+        </classes>
+    </test>
+
+</suite>
